@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "tw_03_pro",
+		"path": "."
+	},
+	{
+		"name": "img",
+		"path": "../clarusway-full-stack-tr-14/html-css/projects/005-Website-Page-Design-2/img"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "tw_03_pro"
+  }
+}
