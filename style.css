@@ -127,6 +127,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     height: 75vh;
+    flex-shrink: 2;
     /* text-align: center; */
 }
 .box{
@@ -159,6 +160,7 @@ h4{
     border-radius: 11px;
     text-align: center;
     transition: 2s;
+    flex-shrink: 1;
 
 }
 .form:hover{
@@ -187,14 +189,14 @@ h4{
 
 @media screen  and (max-width:700px){
     
-      .head, .about-us, .service, .subscribe{
+      .head, .about-us, .services, .subscribe{
         flex-direction: column;
         
     }
    
-    .services, header, .subscribe{
+    /* .services, header, .subscribe{
         height: auto;
-    }
+    } */
     .services, .box .about-us, .art{
        overflow: scroll;
     }
