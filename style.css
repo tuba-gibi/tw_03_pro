@@ -10,12 +10,12 @@ span {
   color: #bf1564;
 }
 
-header {
+.head{
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(55, 55, 55);
-  height: 10vh;
+  /* height: 10vh; */
   padding: 2rem;
   position: sticky;
   top: 0;
@@ -200,10 +200,3 @@ h4{
     }
     
 }
-/* @media screen and (max-width:450px){
-  {
-        flex-direction: column;
-    }
-
-} */
-    
